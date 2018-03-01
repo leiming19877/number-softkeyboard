@@ -1,2 +1,2 @@
 # number-softkeyboard
-number softkeyboard input Widgets
+number softkeyboard input widgets
