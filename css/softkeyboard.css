@@ -1,0 +1,18 @@
+body{overflow: auto !important;}
+.m-softkeyboard{display:none; position:absolute;  width: 300px; background-color:#34b4f9; border-radius: 3px;z-index: 200;}
+/** reset m-softkeyboard module css style **/
+.m-softkeyboard *{box-sizing: border-box;margin: 0;padding: 0; }
+.m-softkeyboard .c-panel{margin-left:0px;}
+.m-softkeyboard .c-panel li{float:left;margin-top: 20px;width:33.33333333%; list-style: none;text-align: center; }
+.m-softkeyboard .c-panel:after{clear: both;display: block;visibility: visible;height: 0px;content: '.'}
+
+.m-softkeyboard .n-btn{display:inline-block; width: 77px; font-size: 56px; height: 77px;text-align: center; line-height:71px;color: #FFF;border: 3px solid #48bfff; border-radius:50%;background: none;}
+/** reset default behavior **/
+.m-softkeyboard .n-btn:focus{outline:none;}
+.m-softkeyboard .n-btn:hover{color: #fff;background:#ffcb2d;border: 3px solid #a0b779;}
+.m-softkeyboard .n-btn.n-btn-ok{font-size: 28px;}
+/** del button**/
+.m-softkeyboard .n-btn.n-btn-del{background: url('../images/del.png') no-repeat;background-position: center;}
+/** arrow for top right bottom left **/
+.m-softkeyboard .arrow{position: absolute;width: 0;height: 0;}
+.m-softkeyboard .arrow.arrow-top{top: -10px;left: 50%;border-bottom:10px solid #34b4f9;border-left:10px solid transparent;border-right:10px solid transparent;border-top:0 solid transparent; transform:translateX(-50%); }

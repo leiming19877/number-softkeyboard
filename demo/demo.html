@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>number-soft-keybord</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/softkeyboard.css" />
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/softkeyboard.js"></script>
+<style type="text/css">
+#ipt1{
+	position:absolute;
+	top:20px;
+	left:200px;
+	width:100px;
+	height: 30px;
+	border: 2px solid #34b4f9;
+}
+
+#ipt2{
+	position:absolute;
+	top:400px;
+	left:400px;
+	width:100px;
+	height: 30px;
+	border: 2px solid #34b4f9;
+}
+#ipt3{
+	position:absolute;
+	top:100px;
+	right:20px;
+	width:100px;
+	height: 30px;
+	border: 2px solid #34b4f9;
+}
+</style>
+
+</head>
+<body>
+	<!-- <div class="m-softkeyboard" id="_softkeyboard" name="_softkeyboard"
+		style="top: 26px; left: 238.234px;">
+		<ul class="c-panel">
+			<li><input class="n-btn" type="button" value="7" /></li>
+			<li><input class="n-btn" type="button" value="8" /></li>
+			<li><input class="n-btn" type="button" value="9" /></li>
+			<li><input class="n-btn" type="button" value="4" /></li>
+			<li><input class="n-btn" type="button" value="5" /></li>
+			<li><input class="n-btn" type="button" value="6" /></li>
+			<li><input class="n-btn" type="button" value="1" /></li>
+			<li><input class="n-btn" type="button" value="2" /></li>
+			<li><input class="n-btn" type="button" value="3" /></li>
+			<li><input class="n-btn" type="button" value="0" /></li>
+			<li>
+				<div class="n-btn n-btn-del"></div>
+			</li>
+			<li><input class="n-btn n-btn-ok" type="button" value="确定" /></li>
+		
+		</ul>
+		<div class="arrow arrow-top"></div>
+	</div> -->
+	<input id="ipt1" type="text"  />
+	<input id="ipt2" type="text"  />
+	<input id="ipt3" type="text"  />
+</body>
+<script type="text/javascript">
+	jQuery("#ipt1,#ipt2,#ipt3").softKeyboard();
+</script>
+</html>
